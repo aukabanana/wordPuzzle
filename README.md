@@ -15,7 +15,7 @@ A zero-mercy **Word Find / Word Search** solver built for anyone too lazy to man
 
 ---
 
-## 🧠 Behind the Curtain (How It Works)
+## Behind the Curtain (How It Works)
 
 1. Scans the $N \times N$ matrix until it hits the word's first character.
 2. Immediately fires directional probes across all 8 vectors.
