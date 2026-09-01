@@ -1,5 +1,3 @@
-import java.util.*;
-
 public class wordPuzzle {
 
     private static final int[][] DIRECTIONS = {
