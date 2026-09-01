@@ -1,16 +1,16 @@
 import java.util.*;
 
-public class WordFindSolver {
+public class wordPuzzle {
 
     private static final int[][] DIRECTIONS = {
-        { 0,  1}, // (East)
-        { 0, -1}, // (West)
-        { 1,  0}, // (South)
-        {-1,  0}, // (North)
-        { 1,  1}, // (South-East)
-        { 1, -1}, // (South-West)
-        {-1,  1}, // (North-East)
-        {-1, -1}  // (North-West)
+        { 0,  1}, // (Right)
+        { 0, -1}, // (Left)
+        { 1,  0}, // (Down)
+        {-1,  0}, // (Up)
+        { 1,  1}, // (Down-Right)
+        { 1, -1}, // (Down-Left)
+        {-1,  1}, // (Up-Right)
+        {-1, -1}  // (Up-Left)
     };
 
     private static final String[] DIR_NAMES = {
